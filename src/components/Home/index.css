@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-logo-image {
+  height: 65px;
+  margin-right: 10px;
+}
+.home-heading {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.team-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main-logo-image {
+    height: 45px;
+  }
+  .home-heading {
+    font-size: 30px;
+  }
+  .team-card-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

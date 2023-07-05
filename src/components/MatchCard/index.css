@@ -1,0 +1,33 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.list-items-container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 600px;
+  margin: 15px;
+}
+.match-card-img {
+  height: 150px;
+}
+.match-card-heading {
+  font-size: 29px;
+}
+.match-card-result {
+  font-size: 18px;
+}
+.redColor {
+  color: red;
+  font-size: 28px;
+}
+.greenColor {
+  color: green;
+  font-size: 28px;
+}

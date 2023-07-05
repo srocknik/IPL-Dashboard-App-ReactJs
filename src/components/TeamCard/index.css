@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.match-card-list-container {
+  background-color: #ffffff33;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+  width: 400px;
+  height: 100px;
+  border: #ffffff 0.2px solid;
+}
+.match-card-logo-img {
+  height: 65px;
+  margin-right: 10px;
+}
+.match-card-team-name {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Bree serif;
+}
+@media (max-width: 576px) {
+  .match-card-list-container {
+    width: 130px;
+    height: 70px;
+    padding: 5px;
+  }
+  .match-card-logo-img {
+    height: 20px;
+  }
+  .match-card-team-name {
+    font-size: 13px;
+  }
+}
+.link-container {
+  text-decoration: none;
+}

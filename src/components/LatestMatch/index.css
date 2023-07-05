@@ -1,0 +1,33 @@
+/* Write your CSS here */
+* {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.latest-match-container {
+  background-color: #000000;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+}
+.heading-vanue-container {
+  width: 30%;
+}
+.latest-match-heading {
+  font-size: 25px;
+}
+.date {
+  font-size: 22px;
+}
+.umpire {
+  font-size: 15px;
+}
+.latest-match-logo {
+  height: 150px;
+}
